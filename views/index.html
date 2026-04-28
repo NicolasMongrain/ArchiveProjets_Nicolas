@@ -13,12 +13,13 @@
 <body class="bg-[#181C2F] overflow-hidden">
 
     <!-- SVG Background -->
-    <svg class="fixed top-0 left-0 w-full h-full -z-20" xmlns="http://www.w3.org/2000/svg">
+    <svg class="fixed top-0 left-0 w-full h-full -z-20" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
         <defs>
             <pattern id="grid" width="80" height="80" patternUnits="userSpaceOnUse">
                 <path d="M 80 0 L 0 0 0 80" fill="none" stroke="#292A30" stroke-width="1" />
             </pattern>
         </defs>
+
 
         <rect width="100%" height="100%" fill="#181C2F" />
         <rect width="100%" height="100%" fill="url(#grid)" />
@@ -110,6 +111,41 @@
             <circle class="star" cx="368" cy="789" r="2" />
             <circle class="star" cx="1500" cy="170" r="4" />
 
+
+            <!-- EXTRA LEFT (visible seulement sur grands écrans) -->
+            <line class="line" x1="50" y1="200" x2="150" y2="280" />
+            <line class="line" x1="150" y1="280" x2="80" y2="360" />
+
+            <circle class="star" cx="50" cy="200" r="2" />
+            <circle class="star" cx="150" cy="280" r="3" />
+            <circle class="star" cx="80" cy="360" r="2" />
+
+
+            <!-- EXTRA RIGHT -->
+            <line class="line" x1="1450" y1="150" x2="1600" y2="220" />
+            <line class="line" x1="1600" y1="220" x2="1750" y2="180" />
+
+            <circle class="star" cx="1450" cy="150" r="2" />
+            <circle class="star" cx="1600" cy="220" r="3" />
+            <circle class="star" cx="1750" cy="180" r="2" />
+
+
+            <!-- EXTRA TOP -->
+            <line class="line" x1="600" y1="-50" x2="750" y2="80" />
+            <line class="line" x1="750" y1="80" x2="900" y2="30" />
+
+            <circle class="star" cx="600" cy="-50" r="2" />
+            <circle class="star" cx="750" cy="80" r="3" />
+            <circle class="star" cx="900" cy="30" r="2" />
+
+
+            <!-- EXTRA BOTTOM -->
+            <line class="line" x1="500" y1="900" x2="650" y2="980" />
+            <line class="line" x1="650" y1="980" x2="800" y2="920" />
+
+            <circle class="star" cx="500" cy="900" r="2" />
+            <circle class="star" cx="650" cy="980" r="3" />
+            <circle class="star" cx="800" cy="920" r="2" />
         </g>
     </svg>
 
