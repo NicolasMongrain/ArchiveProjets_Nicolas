@@ -1,0 +1,26 @@
+.folder-text {
+    fill: #EEF8FF;
+    font-size: 14px;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.group:hover .folder-lid {
+    transform: rotateX(-60deg);
+    transition: transform 0.4s ease;
+    filter: brightness(1.1);
+
+}
+
+.folder-lid {
+    transform-origin: 50% 40px;
+    transition: transform 0.4s ease;
+}
+
+.folder-front {
+    transition: transform 0.4s ease;
+}
+
+.group:hover .folder-front {
+    transform: translateY(6px);
+}

@@ -6,11 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="../js/bgIndex.js" defer></script>
     <link rel="stylesheet" tyoe="text/css" href="../css/bgIndex.css">
+    <link rel="stylesheet" tyoe="text/css" href="../css/folder.css">
     <link href="../css/output.css" rel="stylesheet">
     <title>Portfolio - Nicolas Mongrain</title>
 </head>
 
-<body class="bg-[#181C2F] overflow-hidden">
+<body class="relative min-h-screen bg-[#181C2F]">
 
     <!-- SVG Background -->
     <svg class="fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-20" width="2560" height="1440"
@@ -181,8 +182,129 @@
     </div>
 
     <!-- Contenu -->
-    <main class="relative z-10 text-[#EEF8FF] p-10">
-        <h1 class="text-4xl font-bold">Bienvenu sur le site de</h1>
+    <main class="relative z-10 text-[#EEF8FF]">
+
+        <div class="fixed inset-0 flex flex-col items-center justify-center space-y-4 text-[#EEF8FF]">
+
+            <h2 class="text-4xl font-bold">Bienvenu sur le site de</h2>
+            <h3 class="text-3xl font-bold text-[#6AADF4]">Nicolas Mongrain</h3>
+
+        </div>
+
+
+        <!--Dossier Projets d'étude -->
+        <div class="group w-44 cursor-pointer perspective-[800px] rotate-0">
+
+            <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" class="w-full">
+
+                <!-- arrière -->
+                <rect x="10" y="40" width="180" height="80" rx="6" fill="#2E303A" />
+
+                <!-- contenu (optionnel) -->
+                <rect x="20" y="50" width="160" height="60" fill="#6AADF4" opacity="0.15" />
+
+                <!-- rabat du haut (ouvre) -->
+                <path d="M10 40 L60 40 L75 25 L190 25 L190 40 Z" fill="#4C4F5E" class="folder-lid"
+                    style="transform-origin: 50% 40px;" />
+
+                <!-- face avant (fixe) -->
+                <rect x="10" y="40" width="180" height="80" rx="6" fill="#4C4F5E" class="folder-front" />
+
+                <!-- texte -->
+                <text x="100" y="90" text-anchor="middle" fill="#EEF8FF" font-size="14" font-weight="bold"
+                    pointer-events="none">
+                    Projets d'étude
+                </text>
+
+            </svg>
+
+        </div>
+
+                <!--Dossier À propos de moi -->
+        <div class="group w-44 cursor-pointer perspective-[800px] rotate-0">
+
+            <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" class="w-full">
+
+                <!-- arrière -->
+                <rect x="10" y="40" width="180" height="80" rx="6" fill="#2E303A" />
+
+                <!-- contenu (optionnel) -->
+                <rect x="20" y="50" width="160" height="60" fill="#6AADF4" opacity="0.15" />
+
+                <!-- rabat du haut (ouvre) -->
+                <path d="M10 40 L60 40 L75 25 L190 25 L190 40 Z" fill="#4C4F5E" class="folder-lid"
+                    style="transform-origin: 50% 40px;" />
+
+                <!-- face avant (fixe) -->
+                <rect x="10" y="40" width="180" height="80" rx="6" fill="#4C4F5E" class="folder-front" />
+
+                <!-- texte -->
+                <text x="100" y="90" text-anchor="middle" fill="#EEF8FF" font-size="14" font-weight="bold"
+                    pointer-events="none">
+                    Projets d'étude
+                </text>
+
+            </svg>
+
+        </div>
+
+
+                <!--Dossier compétences -->
+        <div class="group w-44 cursor-pointer perspective-[800px] rotate-0">
+
+            <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" class="w-full">
+
+                <!-- arrière -->
+                <rect x="10" y="40" width="180" height="80" rx="6" fill="#2E303A" />
+
+                <!-- contenu (optionnel) -->
+                <rect x="20" y="50" width="160" height="60" fill="#6AADF4" opacity="0.15" />
+
+                <!-- rabat du haut (ouvre) -->
+                <path d="M10 40 L60 40 L75 25 L190 25 L190 40 Z" fill="#4C4F5E" class="folder-lid"
+                    style="transform-origin: 50% 40px;" />
+
+                <!-- face avant (fixe) -->
+                <rect x="10" y="40" width="180" height="80" rx="6" fill="#4C4F5E" class="folder-front" />
+
+                <!-- texte -->
+                <text x="100" y="90" text-anchor="middle" fill="#EEF8FF" font-size="14" font-weight="bold"
+                    pointer-events="none">
+                    Projets d'étude
+                </text>
+
+            </svg>
+
+        </div>
+
+
+        <!--Dossier Projets personnelles -->
+        <div class="group w-44 cursor-pointer perspective-[800px] rotate-0">
+
+            <svg viewBox="0 0 200 140" xmlns="http://www.w3.org/2000/svg" class="w-full">
+
+                <!-- arrière -->
+                <rect x="10" y="40" width="180" height="80" rx="6" fill="#2E303A" />
+
+                <!-- contenu (optionnel) -->
+                <rect x="20" y="50" width="160" height="60" fill="#6AADF4" opacity="0.15" />
+
+                <!-- rabat du haut (ouvre) -->
+                <path d="M10 40 L60 40 L75 25 L190 25 L190 40 Z" fill="#4C4F5E" class="folder-lid"
+                    style="transform-origin: 50% 40px;" />
+
+                <!-- face avant (fixe) -->
+                <rect x="10" y="40" width="180" height="80" rx="6" fill="#4C4F5E" class="folder-front" />
+
+                <!-- texte -->
+                <text x="100" y="90" text-anchor="middle" fill="#EEF8FF" font-size="14" font-weight="bold"
+                    pointer-events="none">
+                    Projets d'étude
+                </text>
+
+            </svg>
+
+        </div>
     </main>
 
 
