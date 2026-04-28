@@ -422,6 +422,9 @@
   .bg-\[\#181C2F\] {
     background-color: #181C2F;
   }
+  .bg-repeat {
+    background-repeat: repeat;
+  }
   .p-10 {
     padding: calc(var(--spacing) * 10);
   }
