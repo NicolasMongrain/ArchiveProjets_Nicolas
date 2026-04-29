@@ -13,7 +13,6 @@
     --text-4xl: 2.25rem;
     --text-4xl--line-height: calc(2.5 / 2.25);
     --font-weight-bold: 700;
-    --ease-out: cubic-bezier(0, 0, 0.2, 1);
     --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -191,23 +190,8 @@
   .top-1\/2 {
     top: calc(1 / 2 * 100%);
   }
-  .top-16 {
-    top: calc(var(--spacing) * 16);
-  }
-  .top-128 {
-    top: calc(var(--spacing) * 128);
-  }
-  .top-160 {
-    top: calc(var(--spacing) * 160);
-  }
-  .top-\[5\%\] {
-    top: 5%;
-  }
   .top-\[7\%\] {
     top: 7%;
-  }
-  .top-\[8\%\] {
-    top: 8%;
   }
   .top-\[20\%\] {
     top: 20%;
@@ -215,50 +199,17 @@
   .top-\[25\%\] {
     top: 25%;
   }
-  .top-\[28\%\] {
-    top: 28%;
-  }
-  .top-\[30\%\] {
-    top: 30%;
-  }
-  .top-\[33\%\] {
-    top: 33%;
-  }
-  .top-\[55\%\] {
-    top: 55%;
-  }
-  .top-\[58\%\] {
-    top: 58%;
-  }
   .top-\[60\%\] {
     top: 60%;
   }
   .top-\[80\%\] {
     top: 80%;
   }
-  .top-\[90\%\] {
-    top: 90%;
-  }
-  .right-20 {
-    right: calc(var(--spacing) * 20);
-  }
-  .right-88 {
-    right: calc(var(--spacing) * 88);
-  }
   .right-\[6\%\] {
     right: 6%;
   }
-  .right-\[8\%\] {
-    right: 8%;
-  }
-  .right-\[10\%\] {
-    right: 10%;
-  }
   .right-\[25\%\] {
     right: 25%;
-  }
-  .right-\[30\%\] {
-    right: 30%;
   }
   .left-1 {
     left: calc(var(--spacing) * 1);
@@ -266,20 +217,17 @@
   .left-1\/2 {
     left: calc(1 / 2 * 100%);
   }
-  .left-40 {
-    left: calc(var(--spacing) * 40);
-  }
-  .left-90 {
-    left: calc(var(--spacing) * 90);
-  }
   .left-\[10\%\] {
     left: 10%;
   }
   .left-\[25\%\] {
     left: 25%;
   }
-  .left-\[35\%\] {
-    left: 35%;
+  .left-\[45\%\] {
+    left: 45%;
+  }
+  .left-\[50\%\] {
+    left: 50%;
   }
   .-z-10 {
     z-index: calc(10 * -1);
@@ -419,6 +367,10 @@
   .duration-450 {
     --tw-duration: 450ms;
     transition-duration: 450ms;
+  }
+  .duration-600 {
+    --tw-duration: 600ms;
+    transition-duration: 600ms;
   }
   .ease-in-out {
     --tw-ease: var(--ease-in-out);
