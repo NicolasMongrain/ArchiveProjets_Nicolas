@@ -22,3 +22,12 @@
         transform: scale(1);
     }
 }
+
+.bg-space {
+    background-color: #181C2F;
+    background-image: url("../images/svg/bg.svg");
+    background-repeat: repeat;
+    background-size: 1800px 900px;
+
+    min-height: 100vh;
+}
