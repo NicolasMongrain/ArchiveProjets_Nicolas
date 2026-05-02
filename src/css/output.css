@@ -19,10 +19,6 @@
     --font-weight-extrabold: 800;
     --leading-relaxed: 1.625;
     --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
-    --animate-spin: spin 1s linear infinite;
-    --animate-ping: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
-    --animate-pulse: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
-    --animate-bounce: bounce 1s infinite;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     --default-font-family: var(--font-sans);
@@ -202,17 +198,26 @@
   .top-12 {
     top: calc(var(--spacing) * 12);
   }
-  .top-\[7\%\] {
-    top: 7%;
+  .top-\[0\%\] {
+    top: 0%;
   }
-  .top-\[16\%\] {
-    top: 16%;
+  .top-\[4\%\] {
+    top: 4%;
+  }
+  .top-\[8\%\] {
+    top: 8%;
+  }
+  .top-\[10\%\] {
+    top: 10%;
+  }
+  .top-\[15\%\] {
+    top: 15%;
   }
   .top-\[18\%\] {
     top: 18%;
   }
-  .top-\[20\%\] {
-    top: 20%;
+  .top-\[23\%\] {
+    top: 23%;
   }
   .top-\[25\%\] {
     top: 25%;
@@ -241,17 +246,8 @@
   .left-\[10\%\] {
     left: 10%;
   }
-  .left-\[25\%\] {
-    left: 25%;
-  }
-  .left-\[43\%\] {
-    left: 43%;
-  }
-  .left-\[44\%\] {
-    left: 44%;
-  }
-  .left-\[48\%\] {
-    left: 48%;
+  .left-\[15\%\] {
+    left: 15%;
   }
   .-z-10 {
     z-index: calc(10 * -1);
@@ -486,6 +482,41 @@
       }
     }
   }
+  .md\:top-\[15\%\] {
+    @media (width >= 48rem) {
+      top: 15%;
+    }
+  }
+  .md\:left-\[25\%\] {
+    @media (width >= 48rem) {
+      left: 25%;
+    }
+  }
+  .lg\:top-\[10\%\] {
+    @media (width >= 64rem) {
+      top: 10%;
+    }
+  }
+  .lg\:top-\[15\%\] {
+    @media (width >= 64rem) {
+      top: 15%;
+    }
+  }
+  .lg\:top-\[18\%\] {
+    @media (width >= 64rem) {
+      top: 18%;
+    }
+  }
+  .lg\:top-\[25\%\] {
+    @media (width >= 64rem) {
+      top: 25%;
+    }
+  }
+  .lg\:left-\[25\%\] {
+    @media (width >= 64rem) {
+      left: 25%;
+    }
+  }
 }
 @property --tw-translate-x {
   syntax: "*";
@@ -620,32 +651,6 @@
   syntax: "*";
   inherits: false;
   initial-value: 1;
-}
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
-@keyframes ping {
-  75%, 100% {
-    transform: scale(2);
-    opacity: 0;
-  }
-}
-@keyframes pulse {
-  50% {
-    opacity: 0.5;
-  }
-}
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(-25%);
-    animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
-  }
-  50% {
-    transform: none;
-    animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
-  }
 }
 @layer properties {
   @supports ((-webkit-hyphens: none) and (not (margin-trim: inline))) or ((-moz-orient: inline) and (not (color:rgb(from red r g b)))) {
