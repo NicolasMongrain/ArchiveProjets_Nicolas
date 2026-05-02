@@ -22,7 +22,7 @@
 }
 
 .group:hover .folder-front {
-    transform: translateY(6px);
+    transform: translateY(30px);
 }
 
 @keyframes fadeSlideDown {
