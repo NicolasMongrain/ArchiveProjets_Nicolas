@@ -4,16 +4,37 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="../js/bgIndex.js" defer></script>
-    <link rel="stylesheet" type="text/css" href="../css/bgIndex.css">
+    <script src="../js/bg.js" defer></script>
+    <link rel="stylesheet" type="text/css" href="../css/bg.css">
+    <link rel="stylesheet" type="text/css" href="../css/animation.css">
     <link href="../css/output.css" rel="stylesheet">
     <title>Portfolio - Nicolas Mongrain - Compétences</title>
 </head>
 
 <body class="bg-space z-0">
+    
+    <!-- Halo souris -->
+    <div id="cursor-glow" class="fixed w-[90px] h-[90px] pointer-events-none rounded-full -z-10 blur-[60px] 
+        -translate-x-1/2 -translate-y-1/2">
+    </div>
 
-    <mainc class="z-30">
-        <h1 class="text-4xl text-[#EEF8FF]">compétences</h1>
+    <main class="z-30">
+        <a href="index.html" class="absolute top-12 left-15 fadeSlideDown-anim text-[#EEF8FF] hover:text-[#6AADF4] transform 
+        hover:scale-110 transition duration-450" style="animation-delay: 0.4s;">
+            <svg width="35px" height="35px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                <g id="SVGRepo_iconCarrier">
+                    <path d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z"
+                        fill="currentColor" />
+                </g>
+            </svg>
+        </a>
+
+        <div class="m-15 flex flex-col items-center">
+            <h1 class="text-3xl font-bold text-[#EEF8FF] fadeSlideDown-anim">compétences</h1>
+        </div>
+        
     </main>
     
 </body>
