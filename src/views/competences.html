@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="../js/bg.js" defer></script>
     <link rel="stylesheet" type="text/css" href="../css/bg.css">
+    <script type="module" src="../js/competences.js" defer></script>
     <link rel="stylesheet" type="text/css" href="../css/animation.css">
     <link href="../css/output.css" rel="stylesheet">
     <title>Portfolio - Nicolas Mongrain - Compétences</title>
 </head>
 
 <body class="bg-space z-0">
-    
+
     <!-- Halo souris -->
     <div id="cursor-glow" class="fixed w-[90px] h-[90px] pointer-events-none rounded-full -z-10 blur-[60px] 
         -translate-x-1/2 -translate-y-1/2">
     </div>
 
-    <main class="z-30">
+    <main class="z-30 text-[#EEF8FF]">
         <a href="index.html" class="absolute top-12 left-15 fadeSlideDown-anim text-[#EEF8FF] hover:text-[#6AADF4] transform 
         hover:scale-110 transition duration-450" style="animation-delay: 0.4s;">
             <svg width="35px" height="35px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -31,10 +32,73 @@
             </svg>
         </a>
 
-        <div class="m-15 flex flex-col items-center">
-            <h1 class="text-3xl font-bold text-[#EEF8FF] fadeSlideDown-anim">compétences</h1>
+        <div class="m-15 flex flex-col items-center gap-5 ">
+            <h1 class="text-3xl font-bold fadeSlideDown-anim">compétences</h1>
         </div>
-        
+
+        <div class="flex flex-col items-start mt-20 ml-10 mr-10 lg:ml-60 lg:mr-60 fadeSlideDown-anim"
+            style="animation-delay: 0.7s;">
+            <span class="text-xl font-semibold">Programmation Orienté Objets</span>
+
+            <div id="ProgrammationObjets" class="grid grid-cols-2 gap-4 w-full mt-5"></div>
+        </div>
+
+        <div class="flex flex-col items-start mt-20 ml-10 mr-10 lg:ml-60 lg:mr-60 fadeSlideDown-anim"
+            style="animation-delay: 0.8s;">
+            <span class="text-xl font-semibold">Programmation Web</span>
+
+            <div id="ProgrammationWeb" class="grid grid-cols-2 gap-4 w-full mt-5"></div>
+        </div>
+
+        <div class="flex flex-col items-start mt-20 ml-10 mr-10 lg:ml-60 lg:mr-60 fadeSlideDown-anim"
+            style="animation-delay: 0.9s;">
+            <span class="text-xl font-semibold">Programmation Assembleur et Script</span>
+
+            <div id="ProgrammationAssembleuretScript" class="grid grid-cols-2 gap-4 w-full mt-5"></div>
+        </div>
+
+        <div class="flex flex-col items-start mt-20 ml-10 mr-10 lg:ml-60 lg:mr-60 fadeSlideDown-anim"
+            style="animation-delay: 0.9s;">
+            <span class="text-xl font-semibold">Programmation Database</span>
+
+            <div id="ProgrammationDatabase" class="grid grid-cols-2 gap-4 w-full mt-5"></div>
+        </div>
+
+        <div class="flex flex-col items-start mt-20 ml-10 mr-10 lg:ml-60 lg:mr-60 fadeSlideDown-anim"
+            style="animation-delay: 0.9s;">
+            <span class="text-xl font-semibold">Réseau</span>
+
+            <div id="reseau" class="grid grid-cols-2 gap-4 w-full mt-5"></div>
+        </div>
+
+        <div class="flex flex-col items-start mt-20 ml-10 mr-10 lg:ml-60 lg:mr-60 fadeSlideDown-anim"
+            style="animation-delay: 0.9s;">
+            <span class="text-xl font-semibold">Application mobile</span>
+
+            <div id="applicationMobile" class="grid grid-cols-2 gap-4 w-full mt-5"></div>
+        </div>
+
+        <div class="flex flex-col items-start mt-20 ml-10 mr-10 lg:ml-60 lg:mr-60 fadeSlideDown-anim"
+            style="animation-delay: 0.9s;">
+            <span class="text-xl font-semibold">Création de jeux</span>
+
+            <div id="creationDeJeux" class="grid grid-cols-2 gap-4 w-full mt-5"></div>
+        </div>
+
+        <div class="flex flex-col items-start mt-20 ml-10 mr-10 lg:ml-60 lg:mr-60 fadeSlideDown-anim"
+            style="animation-delay: 0.9s;">
+            <span class="text-xl font-semibold">Création artistique</span>
+
+            <div id="creationArtistique" class="grid grid-cols-2 gap-4 w-full mt-5"></div>
+        </div>
+
+        <div class="flex flex-col items-start mt-20 ml-10 mr-10 lg:ml-60 lg:mr-60 fadeSlideDown-anim"
+            style="animation-delay: 0.9s;">
+            <span class="text-xl font-semibold">Autres</span>
+
+            <div id="autres" class="grid grid-cols-2 gap-4 w-full mt-5"></div>
+        </div>
+
     </main>
-    
+
 </body>

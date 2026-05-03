@@ -1,5 +1,5 @@
 export const competences = [
-  //Programmation orienté objet
+  //Programmation Orienté Objets
   {
     id: 1,
     nom: "Java",
