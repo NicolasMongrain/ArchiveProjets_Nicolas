@@ -362,12 +362,22 @@ export const projets =
                     "TailWindCSS"
                 ],
 
-                "outils": [
-
-                ],
+                "outils": [],
 
                 "infrastructure": []
             },
+
+            "images" : [],
+
+            "videos" : [],
+
+            "description" : "Ce projet est le site sur le quel vous êtes actuellement. Je l'inclus dans les projets vu que ça en reste un. Ce projet a pour but de laisser une trace de tous mes projets quelques parts et de montrer ce que j'ai fait et de montrer mon évolution dans le temps.",
+
+            "apprentissage" : [],
+
+            "duree" : "1 mois",
+
+            "annee" : "2026"
         }
 
 
