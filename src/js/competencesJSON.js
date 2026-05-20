@@ -96,7 +96,7 @@ export const competences = [
   },
   {
     id: 14,
-    nom: "SQL",
+    nom: "MySQL",
     niveau: "Intermédiaire",
     image: "../images/competences/logoSQL.png",
     groupe: "Programmation Database"
