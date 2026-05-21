@@ -3,8 +3,8 @@ export const projets =
         {
             "id": 1,
             "nom": "BouffETS",
-            "categorie": ["projet-etude"],
-            "status": "Terminé",
+            "categorie": ["projet-etude", "vitrine"],
+            "status": "terminé",
             "technologies": {
                 "langages": [
                     "Java",
@@ -65,7 +65,7 @@ export const projets =
             "id": 2,
             "nom": "Simulateur de pathfinding A* et Dijkstra",
             "categorie": ["vitrine", "projet-personnel"],
-            "status": "Terminé",
+            "status": "terminé",
             "technologies": {
                 "langages": [
                     "Java"
@@ -110,7 +110,7 @@ export const projets =
             "id": 3,
             "nom": "Chiffrement par flux XOR",
             "categorie": ["projet-etude"],
-            "status": "Terminé",
+            "status": "terminé",
             "technologies": {
                 "langages": [
                     "PEP/8"
@@ -155,7 +155,7 @@ export const projets =
             "id": 4,
             "nom": "Générateur de nombre speudo-aléatoire",
             "categorie": ["projet-etude"],
-            "status": "Terminé",
+            "status": "terminé",
             "technologies": {
                 "langages": [
                     "PEP/8"

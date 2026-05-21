@@ -20,10 +20,12 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-
+    let index =0;
 
     // Créer les éléments
     projetsFiltres.forEach(projet => {
+
+        index++;
 
         // Dimension du texte sur le dossier
         const nom = projet.nom;
@@ -75,24 +77,29 @@ document.addEventListener("DOMContentLoaded", () => {
         // Création du dossier
         const svg = document.createElement("div");
 
+
+        svg.className = `transition-transform duration-450 ease-in-out group folder-anim`;
+
+        svg.style.animationDelay = `${index * 0.1}s`;
+
         svg.innerHTML = `
         <svg viewBox="0 0 200 165" xmlns="http://www.w3.org/2000/svg" class="w-full cursor-pointer">
 
         <g transform="scale(-1,1) translate(-200,0)">
         <!-- arrière -->
-        <rect x="10" y="40" width="180" height="90" rx="6" fill="#EB6142" />
+        <rect x="10" y="40" width="180" height="90" rx="6" fill="${getColorBack(projet.status)}" />
 
         <!-- contenu -->
         <rect x="20" y="50" width="160" height="60" fill="#FFFFFF" opacity="0.15" />
 
         <!-- rabat -->
         <path d="M10 40 L60 40 L75 25 L190 25 L190 42 Z"
-              fill="#EF846B"
+              fill="${getColorRabat(projet.status)}"
               class="folder-lid"
               style="transform-origin: 50px 40px;" />
 
         <!-- face avant -->
-        <rect x="10" y="40" width="180" height="90" rx="6" fill="#F29480" />
+        <rect x="10" y="40" width="180" height="90" rx="6" fill="${getColorFront(projet.status)}" class="folder-front" />
     </g>
 
     ${textSVG}
@@ -109,3 +116,76 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
+
+function getColorFront(status) {
+
+    switch (status.toLowerCase()) {
+
+        case "terminé":
+            return "#64F77A"; // vert
+
+        case "en cours":
+            return "#F5E766"; // jaune
+
+        case "perdu":
+            return "#E74C3C"; // rouge
+
+        case "archive":
+            return "#E74C3C"; // bleu
+
+        case "abandonné":
+            return "#E74C3C"; // mauve
+
+        default:
+            return "#95A5A6"; // gris
+    }
+}
+
+function getColorBack(status) {
+
+    switch (status.toLowerCase()) {
+
+        case "terminé":
+            return "#0DF22F"; // vert
+
+        case "en cours":
+            return "#F1E20E"; // jaune
+
+        case "perdu":
+            return "#E74C3C"; // rouge
+
+        case "archive":
+            return "#E74C3C"; // bleu
+
+        case "abandonné":
+            return "#E74C3C"; // mauve
+
+        default:
+            return "#95A5A6"; // gris
+    }
+}
+
+function getColorRabat(status) {
+
+    switch (status.toLowerCase()) {
+
+        case "terminé":
+            return "#38F555"; // vert
+
+        case "en cours":
+            return "#F6EC65"; // jaune
+
+        case "perdu":
+            return "#E74C3C"; // rouge
+
+        case "archive":
+            return "#E74C3C"; // bleu
+
+        case "abandonné":
+            return "#E74C3C"; // mauve
+
+        default:
+            return "#95A5A6"; // gris
+    }
+}

@@ -534,9 +534,17 @@
     --tw-duration: 450ms;
     transition-duration: 450ms;
   }
+  .duration-500 {
+    --tw-duration: 500ms;
+    transition-duration: 500ms;
+  }
   .ease-in-out {
     --tw-ease: var(--ease-in-out);
     transition-timing-function: var(--ease-in-out);
+  }
+  .ease-out {
+    --tw-ease: var(--ease-out);
+    transition-timing-function: var(--ease-out);
   }
   .perspective-\[800px\] {
     perspective: 800px;
