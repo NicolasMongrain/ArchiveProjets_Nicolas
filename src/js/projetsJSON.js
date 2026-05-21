@@ -364,20 +364,136 @@ export const projets =
 
                 "outils": [],
 
+                "infrastructure": [
+                    "JSON like",
+                    "Github Pages"
+                ]
+            },
+
+            "images": [],
+
+            "videos": [],
+
+            "description": "Ce projet est le site sur le quel vous êtes actuellement. Je l'inclus dans les projets vu que ça en reste un. Ce projet a pour but de laisser une trace de tous mes projets quelques parts et de montrer ce que j'ai fait et de montrer mon évolution dans le temps.",
+
+            "apprentissage": [
+                "Conception et développement d'un site web personnel de type portfolio dynamique",
+                "Structuration de données JavaScript pour afficher et organiser des projets",
+                "Création d'une interface utilisateur pour naviguer entre différents projets",
+                "Mise en place d'un système d'affichage dynamique basé sur des objets de données",
+                "Organisation et centralisation de projets dans une application web unique",
+                "Amélioration des compétences en HTML, CSS et JavaScript",
+                "Utilisation de TailwindCSS pour la création d'une interface moderne et responsive",
+                "Conception d'une architecture front-end modulaire et évolutive",
+                "Gestion et mise à jour de contenu sans base de données externe",
+                "Réflexion sur la présentation et la communication de projets techniques",
+                "Optimisation de l'expérience utilisateur dans un portfolio interactif",
+                "Développement d'un projet personnel servant de vitrine professionnelle"
+            ],
+
+            "duree": "1 mois",
+
+            "annee": "2026"
+        },
+
+        {
+            "id": 10,
+            "nom": "Carte de fête web",
+            "categorie": ["projet-personnel"],
+            "status": "terminé",
+
+            "technologies": {
+                "langages": [
+                    "HTML",
+                    "CSS",
+                    "JavaScript"
+                ],
+
+                "frameworks": [
+                    "TailWindCSS"
+                ],
+
+                "outils": [],
+
                 "infrastructure": []
             },
 
-            "images" : [],
+            "images": [],
 
-            "videos" : [],
+            "videos": [],
 
-            "description" : "Ce projet est le site sur le quel vous êtes actuellement. Je l'inclus dans les projets vu que ça en reste un. Ce projet a pour but de laisser une trace de tous mes projets quelques parts et de montrer ce que j'ai fait et de montrer mon évolution dans le temps.",
+            "description": " Projet de carte de fête sur web pour ma copine que j'ai fait. J'ai fait un petit message avec un gâteau ou on peut souffler les bougies avec le micro. Il y a également des conffetis dans le background qui tombe",
 
-            "apprentissage" : [],
+            "apprentissage": [
+                "Développement d'une application web interactive avec HTML, CSS et JavaScript",
+                "Utilisation du microphone de l'utilisateur via les APIs Web du navigateur",
+                "Détection et traitement du son pour déclencher des interactions dans l'application",
+                "Création d'animations visuelles et d'effets interactifs sur une page web",
+                "Implémentation d'un système de confettis animé en arrière-plan",
+                "Manipulation dynamique du DOM avec JavaScript",
+                "Utilisation de TailwindCSS pour créer une interface moderne et responsive",
+                "Gestion d'événements utilisateur et d'interactions en temps réel",
+                "Création d'une expérience utilisateur ludique et personnalisée",
+                "Conception d'un projet web créatif combinant animation et interaction audio",
+                "Organisation rapide et efficace d'un petit projet personnel",
+                "Développement d'une meilleure compréhension des capacités multimédia offertes par les navigateurs web"
+            ],
 
-            "duree" : "1 mois",
+            "duree": "une journée",
 
-            "annee" : "2026"
+            "annee": "2026"
+
+        },
+
+        {
+            "id": 11,
+            "nom": "Jeu de plateforme 2D unity",
+            "categorie": ["projet-personnel", "vitrine"],
+            "status": "en cours",
+
+            "technologies": {
+                "langages": [
+                    "C#",
+                ],
+
+                "frameworks": [],
+
+                "outils": [
+                    "Unity 6",
+                    "Aseprite"
+                ],
+
+                "infrastructure": []
+            },
+
+            "images": [],
+
+            "videos": [],
+
+            "description": "Ce jeu est un jeu de plateforme 2D fait sur unity. C'est mon tout premier jeu avec unity. Le jeu a pour but d'être un jeu en équipe de deux ou chaque joueur peut devenir une plateforme pour l'autre joueur afin d'arriver vers des mécanismes et tout ça.",
+
+            "apprentissage": [
+                "Développement d'un jeu de plateforme 2D avec Unity",
+                "Programmation de mécaniques de jeu en C#",
+                "Compréhension des bases du moteur de jeu Unity",
+                "Gestion des collisions, déplacements et interactions entre joueurs",
+                "Conception de mécaniques coopératives basées sur l'entraide entre deux joueurs",
+                "Création d'un système où les joueurs peuvent devenir des plateformes interactives",
+                "Développement de la logique de jeu en temps réel",
+                "Conception et organisation de scènes dans Unity",
+                "Utilisation du système physique de Unity pour les interactions et déplacements",
+                "Création et intégration de sprites pixel art avec Aseprite",
+                "Gestion des animations et éléments visuels dans un jeu 2D",
+                "Débogage et résolution de problèmes liés aux mécaniques de gameplay",
+                "Organisation du code dans un projet de jeu vidéo plus structuré",
+                "Développement d'un premier projet personnel complet avec Unity",
+                "Conception d'une expérience de jeu coopérative basée sur la coordination entre joueurs",
+                "Itération et amélioration progressive des mécaniques de gameplay au fil du développement"
+            ],
+
+            "duree": "4 mois",
+
+            "annee": "2026"
         }
 
 
