@@ -35,10 +35,13 @@ document.addEventListener("DOMContentLoaded", () => {
             break;
         case "perdu":
             statusEl.classList.add("text-red-400");
+            break;
         case "archive":
             statusEl.classList.add("text-blue-400");
+            break;
         case "abandonné":
             statusEl.classList.add("text-purple-400");
+            break;
         default:
             statusEl.classList.add("text-gray-400");
     }
@@ -75,11 +78,11 @@ document.addEventListener("DOMContentLoaded", () => {
     projet.apprentissages.forEach(item => {
         const li = document.createElement("li");
         li.textContent = item;
-        li.className = "text-sm text-gray-300 list-disc ml-5";
+        li.className = "bg-white/10 px-2 py-1 m-1 rounded text-sm";
         apprentissage.appendChild(li);
     });
 
-    // 🧰 7. Technologies
+    // Technologies
     const techContainer = document.getElementById("technologies");
 
     techContainer.innerHTML = "<h3 class='mb-2'>Technologies</h3>";
@@ -92,9 +95,9 @@ document.addEventListener("DOMContentLoaded", () => {
     ];
 
     allTech.forEach(tech => {
-        const span = document.createElement("span");
+        const span = document.createElement("li");
         span.textContent = tech;
-        span.className = "inline-block bg-white/10 px-2 py-1 m-1 rounded text-sm";
+        span.className = "bg-white/10 px-2 py-1 m-1 rounded text-sm w-40 md:w-70 lg:w-100";
         techContainer.appendChild(span);
     });
 

@@ -148,7 +148,7 @@ export const projets =
 
             "duree": "3 semaines",
 
-            "annee": "2025"
+            "anneeCreation": "2025"
         },
 
         {
@@ -199,7 +199,7 @@ export const projets =
 
             "duree": "3 semaines",
 
-            "annee": "2025"
+            "anneeCreation": "2025"
 
         },
 
@@ -250,7 +250,7 @@ export const projets =
 
             "duree": "1 mois",
 
-            "annee": "2026"
+            "anneeCreation": "2026"
         },
 
         {
@@ -301,7 +301,7 @@ export const projets =
 
             "duree": "3 mois",
 
-            "annee": "2025"
+            "anneeCreation": "2025"
 
         },
 
@@ -328,7 +328,7 @@ export const projets =
 
             "description": "Cela n'est pas un projet en théorie, mais plusieurs petits projets de voxel art que j'ai moi même fait. Ce projet sera toujours en cours vu que j'en fais une fois de temps en temps, mais c'est juste un petit bonus que je me permet d'intégrer dans ce site d'archive de mes projets.",
 
-            "apprentissage": [
+            "apprentissages": [
                 "Création de modèles 3D en voxel art avec MagicaVoxel",
                 "Compréhension des principes de base du voxel art (structure, volume et grille 3D)",
                 "Développement de compétences en design et composition visuelle",
@@ -342,7 +342,7 @@ export const projets =
 
             "duree": "indéterminé",
 
-            "annee": "2026"
+            "anneeCreation": "2026"
         },
 
         {
@@ -376,7 +376,7 @@ export const projets =
 
             "description": "Ce projet est le site sur le quel vous êtes actuellement. Je l'inclus dans les projets vu que ça en reste un. Ce projet a pour but de laisser une trace de tous mes projets quelques parts et de montrer ce que j'ai fait et de montrer mon évolution dans le temps.",
 
-            "apprentissage": [
+            "apprentissages": [
                 "Conception et développement d'un site web personnel de type portfolio dynamique",
                 "Structuration de données JavaScript pour afficher et organiser des projets",
                 "Création d'une interface utilisateur pour naviguer entre différents projets",
@@ -393,7 +393,7 @@ export const projets =
 
             "duree": "1 mois",
 
-            "annee": "2026"
+            "anneeCreation": "2026"
         },
 
         {
@@ -424,7 +424,7 @@ export const projets =
 
             "description": " Projet de carte de fête sur web pour ma copine que j'ai fait. J'ai fait un petit message avec un gâteau ou on peut souffler les bougies avec le micro. Il y a également des conffetis dans le background qui tombe",
 
-            "apprentissage": [
+            "apprentissages": [
                 "Développement d'une application web interactive avec HTML, CSS et JavaScript",
                 "Utilisation du microphone de l'utilisateur via les APIs Web du navigateur",
                 "Détection et traitement du son pour déclencher des interactions dans l'application",
@@ -441,7 +441,7 @@ export const projets =
 
             "duree": "une journée",
 
-            "annee": "2026"
+            "anneeCreation": "2026"
 
         },
 
@@ -472,7 +472,7 @@ export const projets =
 
             "description": "Ce jeu est un jeu de plateforme 2D fait sur unity. C'est mon tout premier jeu avec unity. Le jeu a pour but d'être un jeu en équipe de deux ou chaque joueur peut devenir une plateforme pour l'autre joueur afin d'arriver vers des mécanismes et tout ça.",
 
-            "apprentissage": [
+            "apprentissages": [
                 "Développement d'un jeu de plateforme 2D avec Unity",
                 "Programmation de mécaniques de jeu en C#",
                 "Compréhension des bases du moteur de jeu Unity",
@@ -493,7 +493,7 @@ export const projets =
 
             "duree": "4 mois",
 
-            "annee": "2026"
+            "anneeCreation": "2026"
         }
 
 
