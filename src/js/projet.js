@@ -51,14 +51,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     mediaContainer.innerHTML = "";
 
-    // images
-    projet.images.forEach(img => {
-        const image = document.createElement("img");
-        image.src = img;
-        image.className = "rounded-lg w-full object-cover";
-        mediaContainer.appendChild(image);
-    });
-
     // vidéos (YouTube embed)
     projet.videos.forEach(url => {
         const videoId = extractYouTubeId(url);
@@ -69,6 +61,48 @@ document.addEventListener("DOMContentLoaded", () => {
         iframe.allowFullscreen = true;
 
         mediaContainer.appendChild(iframe);
+    });
+
+    // images
+    projet.images.forEach(imgSrc => {
+
+        const canvas = document.createElement("canvas");
+        const ctx = canvas.getContext("2d");
+
+        const img = new Image();
+        img.src = imgSrc;
+
+        img.onload = () => {
+
+            canvas.width = img.width;
+            canvas.height = img.height;
+
+            // Dessine image
+            ctx.drawImage(img, 0, 0);
+
+            // Style watermark
+            ctx.font = "bold 50px Arial";
+            ctx.fillStyle = "rgba(255,255,255,0.6)";
+            ctx.strokeStyle = "rgba(0,0,0,0.5)";
+            ctx.lineWidth = 2;
+
+            const text = "© Nicolas Mongrain";
+
+            // Position
+            const x = canvas.width - 480;
+            const y = canvas.height - 60;
+
+            // Contour noir
+            ctx.strokeText(text, x, y);
+
+            // Texte blanc
+            ctx.fillText(text, x, y);
+
+            // Style canvas
+            canvas.className = "rounded-lg w-full object-cover";
+
+            mediaContainer.appendChild(canvas);
+        };
     });
 
     // Apprentissage
