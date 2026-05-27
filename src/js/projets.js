@@ -7,6 +7,13 @@ document.addEventListener("DOMContentLoaded", () => {
     const params = new URLSearchParams(window.location.search);
     const categorie = params.get("categorie");
 
+    const titre = document.getElementById("titre");
+    titre.textContent = categorie
+        ? categorie
+            .replace(/-/g, " ")
+            .replace(/\b\w/g, lettre => lettre.toUpperCase())
+        : "Tous les projets";
+
     const container = document.getElementById("dossier");
 
     // Filtrer les projets selon la catégorie (ou tout afficher si null)
@@ -20,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    let index =0;
+    let index = 0;
 
     // Créer les éléments
     projetsFiltres.forEach(projet => {

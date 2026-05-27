@@ -40,7 +40,7 @@ export const projets =
             ],
 
             "videos": [
-                //"https://www.youtube.com/watch?v=example1"
+                "https://www.youtube.com/watch?v=fTKqtvXjkvo&pp=ygUHbXVzaXF1ZQ%3D%3D"
             ],
 
             "description": "Projet d'étude en équipe de 7 consistant à créer un site web de cuisine ainsi qu'une application mobile. Le but était de faire un réseau social ou les gens peuvent partager leurs recettes et les gens peuvent faire des publications sur ses recettes.",

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script type="module" src="../js/projet.js" defer></script>
+    <script src="../js/bg.js" defer></script>
+
+    <link href="../css/output.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/bg.css">
+    <link rel="stylesheet" type="text/css" href="../css/folder.css">
+    <link rel="stylesheet" type="text/css" href="../css/animation.css">
+
+    <link rel="icon" href="../images/logo/iconTest.png" type="image/svg+xml">
+    <title id="titreSite">Archive - Nicolas Mongrain - Projet</title>
+</head>
+
+<body class="bg-space">
+
+    <!-- Halo souris -->
+    <div id="cursor-glow" class="fixed w-[90px] h-[90px] pointer-events-none rounded-full -z-10 blur-[60px] 
+        -translate-x-1/2 -translate-y-1/2">
+    </div>
+
+    <main class="z-30 text-[#EEF8FF]">
+        <a href="index.html" class="absolute top-12 left-15 fadeSlideDown-anim text-[#EEF8FF] hover:text-[#6AADF4] transform 
+        hover:scale-110 transition duration-450" style="animation-delay: 0.4s;">
+            <svg width="35px" height="35px" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" />
+                <g id="SVGRepo_iconCarrier">
+                    <path d="M1 6V15H6V11C6 9.89543 6.89543 9 8 9C9.10457 9 10 9.89543 10 11V15H15V6L8 0L1 6Z"
+                        fill="currentColor" />
+                </g>
+            </svg>
+        </a>
+
+        <div class="flex flex-col gap-6 items-center mt-20 ml-30 mr-30">
+            <div class="flex gap-8 justify-between">
+                <h1 id="titre" class="text-3xl font-bold">Titre</h1>
+                <h2 id="status" class="text-3xl font-semibold">Status</h2>
+            </div>
+
+
+            <p id="description" class="text-base mt-15 text-center"> description</p>
+
+            <div class="flex items-center gap-3 text-sm font-medium text-gray-300">
+                <span id="annee">2025</span>
+                <span class="opacity-50">•</span>
+                <span id="duree">4 mois</span>
+            </div>
+
+            <span class="text-xl font-bold mt-8"> Images / Vidéos </span>
+            <div class="grid grid-cols-2 mt-2 gap-4"></div>
+
+            <div class="flex gap-40 md:gap-100 mt-10">
+                <ul id="apprentissage" class="text-lg font-semibold"> Apprentissage</ul>
+                <ul id="technologies" class="text-lg font-semibold"> Technologies</ul>
+            </div>
+
+        </div>
+
+
+
+</body>
+
+</html>
