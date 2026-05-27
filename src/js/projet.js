@@ -74,6 +74,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         img.onload = () => {
 
+            // Dimension
             canvas.width = img.width;
             canvas.height = img.height;
 
@@ -88,7 +89,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const text = "© Nicolas Mongrain";
 
-            // Position
+            // Position du text watermark
             const x = canvas.width - 480;
             const y = canvas.height - 60;
 

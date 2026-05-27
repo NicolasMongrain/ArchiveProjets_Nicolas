@@ -8,12 +8,24 @@ document.addEventListener("DOMContentLoaded", () => {
     const categorie = params.get("categorie");
 
     const titre = document.getElementById("titre");
-    titre.textContent = categorie
+
+    let texte = categorie
         ? categorie
             .replace(/-/g, " ")
             .replace(/\b\w/g, lettre => lettre.toUpperCase())
         : "Tous les projets";
 
+    // Ajouter "s" seulement pour certains cas
+    if (texte.toLowerCase().includes("projet personnel") ||
+        texte.toLowerCase().includes("projet etude")) {
+
+        texte = texte
+            .split(" ")
+            .map(mot => mot.endsWith("s") ? mot : mot + "s")
+            .join(" ");
+    }
+
+    titre.textContent = texte;
     const container = document.getElementById("dossier");
 
     // Filtrer les projets selon la catégorie (ou tout afficher si null)

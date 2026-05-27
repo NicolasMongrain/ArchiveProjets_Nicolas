@@ -20,7 +20,7 @@
         -translate-x-1/2 -translate-y-1/2">
     </div>
 
-    <main class="fixed inset-0 h-full text-[#EEF8FF] z-10">
+    <main class="min-h-screen text-[#EEF8FF] z-10 relative overflow-x-hidden">
 
         <a href="index.html" class="absolute top-12 left-15 fadeSlideDown-anim text-[#EEF8FF] hover:text-[#6AADF4] transform 
         hover:scale-110 transition duration-450" style="animation-delay: 0.4s;">
@@ -34,11 +34,11 @@
             </svg>
         </a>
 
-        <div class="flex-col flex items-center">
+        <div class="flex flex-col items-center flex-1">
             <h1 class="text-3xl font-extrabold fadeSlideDown-anim m-15">À propos de moi</h1>
 
-            <div class="w-full h-130 flex justify-center gap-5">
-                <img class="bg-amber-500 w-[35%] ml-30 h-120 object-cover" src="">
+            <div class="w-full flex flex-col lg:flex-row items-center lg:items-start justify-center gap-8 px-6">
+                <img class="w-full max-w-md h-auto object-cover rounded-lg" src="../images/competences/logoAndroidStudio.png">
                 <div class="text-base p-4 mr-30 pr-20 space-y-4 leading-relaxed">
                     <p class="p-4">
                         Bonjour, je m'appelle Nicolas et je suis étudiant au baccalauréat en génie logiciel à l’ÉTS.
@@ -69,13 +69,15 @@
                 </div>
             </div>
 
-            <div class="mt-8 flex gap-4 items-center fadeSlideDown-anim" style="animation-delay: 0.6s;">
+            <div class="mt-auto py-6 flex flex-wrap gap-4 items-center justify-center fadeSlideDown-anim"
+                style="animation-delay: 0.6s;">
                 <a href="mailto:nicolas.mongrain11@gmail.com">
                     email : nicolas.mongrain11@gmail.com
                 </a>
 
                 <div class="flex gap-4 text-[#EEF8FF]">
-                    <a href="https://www.linkedin.com/in/nicolas-mongrain-183821396/" class="hover:text-[#6AADF4] transform hover:scale-110 transition duration-450">
+                    <a href="https://www.linkedin.com/in/nicolas-mongrain-183821396/"
+                        class="hover:text-[#6AADF4] transform hover:scale-110 transition duration-450">
                         <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -93,7 +95,8 @@
                         </svg>
                     </a>
 
-                    <a href="https://github.com/NicolasMongrain" class="hover:text-[#6AADF4] transform hover:scale-110 transition duration-450">
+                    <a href="https://github.com/NicolasMongrain"
+                        class="hover:text-[#6AADF4] transform hover:scale-110 transition duration-450">
                         <svg width="40px" height="40px" viewBox="0 0 20 20" version="1.1"
                             xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 
@@ -117,7 +120,8 @@
                         </svg>
                     </a>
 
-                    <a href="https://www.instagram.com/nicochoco_11/" class="hover:text-[#6AADF4] transform hover:scale-110 transition duration-450">
+                    <a href="https://www.instagram.com/nicochoco_11/"
+                        class="hover:text-[#6AADF4] transform hover:scale-110 transition duration-450">
                         <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
@@ -132,7 +136,8 @@
                         </svg>
                     </a>
 
-                    <a href="https://www.facebook.com/nicolas.mongrain" class="hover:text-[#6AADF4] transform hover:scale-110 transition duration-450">
+                    <a href="https://www.facebook.com/nicolas.mongrain"
+                        class="hover:text-[#6AADF4] transform hover:scale-110 transition duration-450">
                         <svg width="40px" height="40px" viewBox="0 0 24 24" fill="none"
                             xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd" clip-rule="evenodd"
