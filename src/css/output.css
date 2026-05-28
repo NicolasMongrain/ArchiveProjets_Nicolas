@@ -41,6 +41,7 @@
     --radius-xl: 0.75rem;
     --ease-in-out: cubic-bezier(0.4, 0, 0.2, 1);
     --blur-sm: 8px;
+    --perspective-midrange: 800px;
     --aspect-video: 16 / 9;
     --default-transition-duration: 150ms;
     --default-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -362,6 +363,12 @@
   .h-14 {
     height: calc(var(--spacing) * 14);
   }
+  .h-22 {
+    height: calc(var(--spacing) * 22);
+  }
+  .h-22\.5 {
+    height: calc(var(--spacing) * 22.5);
+  }
   .h-120 {
     height: calc(var(--spacing) * 120);
   }
@@ -385,6 +392,12 @@
   }
   .w-14 {
     width: calc(var(--spacing) * 14);
+  }
+  .w-22 {
+    width: calc(var(--spacing) * 22);
+  }
+  .w-22\.5 {
+    width: calc(var(--spacing) * 22.5);
   }
   .w-40 {
     width: calc(var(--spacing) * 40);
@@ -735,6 +748,9 @@
   }
   .perspective-\[800px\] {
     perspective: 800px;
+  }
+  .perspective-midrange {
+    perspective: var(--perspective-midrange);
   }
   .hover\:scale-110 {
     &:hover {
