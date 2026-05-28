@@ -43,7 +43,12 @@ export const projets =
                 "https://www.youtube.com/watch?v=fTKqtvXjkvo&pp=ygUHbXVzaXF1ZQ%3D%3D"
             ],
 
-            "description": "Projet d'étude en équipe de 7 consistant à créer un site web de cuisine ainsi qu'une application mobile. Le but était de faire un réseau social ou les gens peuvent partager leurs recettes et les gens peuvent faire des publications sur ses recettes.",
+            "description": "Projet d'étude en équipe de 7 consistant à créer un site web de cuisine ainsi qu'une application mobile." +
+            " Le but était de faire un réseau social ou les gens peuvent partager leurs recettes et peuvent faire des publications " +
+            "sur ses recettes. Les utilisateurs pouvaient créer leur compte, ce qui leur permettait d'avoir accès à l'option du frigo qui permet de voir" +
+            " la compatibilité entre les ingrédients du frigo et d'une recette en poarticulier. L'application possède un menu style instagram." +
+            " Il y a également une barre de recherche ou on peut recherche par nom de recette, style de recette et ingrédients de recette." +
+            " De mon côté, j'ai travaillé principalement sur la partie web front-end, mais j'ai également fait une partie du back-end.",
 
             "apprentissages": [
                 "Travail d'équipe sur un projet logiciel de grande envergure",
@@ -87,7 +92,12 @@ export const projets =
 
             "videos": [],
 
-            "description": "Application permettant de visualiser les algorithmes de pathfinding A* et Dijkstra sur une grille dynamique. Il est également possible d'utiliser des portails et des murs afin de changer et d'offrir plus de possibilités!",
+            "description": "Application permettant de visualiser les algorithmes de pathfinding A* et Dijkstra sur une grille dynamique."+
+            " Il est également possible d'utiliser des portails et des murs afin de changer la grille et d'offrir plus de possibilités!" +
+            " Le logiciel offre également un système de sauvegarde pour conserver et réutiliser d'ancienne grille. Il est possible de modifier plusieurs" +
+            " éléments dans l'application comme la grille, le temps entre chaque itération, l'algorithme utilisé, etc. Également, il est possible de mélanger" +
+            " les deux algorithmes de pathfinding en les changeant pendant la recherche du chemin du point A au point B. Dans le futur, si je retravaille"+
+            " sur le projet, alors je rajouterais un générateur de labyrinthe et un système de statisque sur les dernières simulations.",
 
             "apprentissages": [
                 "Implémentation des algorithmes A* et Dijkstra",
@@ -129,7 +139,11 @@ export const projets =
 
             "videos": [],
 
-            "description": "Projet d'étude en assembleur Pep/8 fait en équipe de trois ou le but est de faire le chiffrement et le déchiffrement d'un message par flux XOR. Ce projet utilise également un autre projet d'étude qui est le générateur de nombre speudo-aléatoire :",
+            "description": "Projet d'étude en assembleur Pep/8 fait en équipe de trois ou le but est de faire le chiffrement et le déchiffrement d'un message par flux XOR. "+
+            "Ce projet utilise également un autre projet d'étude qui est le générateur de nombre speudo-aléatoire : ." +
+            "Nous avions le choix entre quatre générateur de nombre speudo aléatoire et nous avions pris le Xorshift16, car il demandait de rentrer moins d'argument." +
+            "Ce projet nous a demandé de faire beaucoup de débuggage et de faire du pas à pas pour comprendre ce qui ce passe " +
+            "derrière le tout et s'assuré du bon fonctionnement du programme.",
 
             "apprentissages": [
                 "Compréhension du fonctionnement du chiffrement par flux XOR",
@@ -172,7 +186,9 @@ export const projets =
 
             "videos": [],
 
-            "description": "Projet en assembleur Pep/8 qui permet de générer des nombres de façon speudo aléatoire. Quatre modèles différent ont été fait. Générateur LCG (Linear congruential generator), générateur Xorshift16 et générateur LFSR (Linear-feedback shift register) interne et externe",
+            "description": "Projet en assembleur Pep/8 qui permet de générer des nombres de façon speudo aléatoire. Quatre modèles différent ont été fait. Générateur LCG (Linear congruential generator), "+
+            "générateur Xorshift16 et générateur LFSR (Linear-feedback shift register) interne et externe. Chaque modèle est différent et manipule les bits à l'intérieur d'un nombre de 16 bits."+
+            "Ce projet est en équipe de trois.",
 
             "apprentissages": [
                 "Développement de générateurs de nombres pseudo-aléatoires en assembleur Pep/8",
@@ -251,6 +267,43 @@ export const projets =
             "duree": "1 mois",
 
             "anneeCreation": "2026"
+        },
+
+        {
+            "id": 8,
+            "nom": "Démonstration d'intégrale",
+            "categorie": ["projet-etude"],
+            "status": "perdu",
+
+            "technologies": {
+                "langages": [
+                    "Java"
+                ],
+
+                "frameworks": [
+                    "Java Swing"
+                ],
+
+                "outils": [
+                ],
+
+                "infrastructure": [
+                ]
+            },
+
+            "images" : [],
+
+            "videos" : [],
+
+            "description" : "Projet en équipe de 2 ou le but était de faire un simulateur d'intégrale",
+
+            "apprentissages" : [
+
+            ],
+
+            "duree" : "3 semaines",
+
+            "anneeCreation" : "2024"
         },
 
         {

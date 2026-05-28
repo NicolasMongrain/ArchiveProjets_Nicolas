@@ -28,6 +28,8 @@ document.addEventListener("DOMContentLoaded", () => {
     titre.textContent = texte;
     const container = document.getElementById("dossier");
 
+
+
     // Filtrer les projets selon la catégorie (ou tout afficher si null)
     const projetsFiltres = categorie
         ? projets.filter(p => p.categorie.includes(categorie))
@@ -40,6 +42,30 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     let index = 0;
+
+    // Priorité des status
+    const ordreStatus = {
+        "en cours": 5,
+        "terminé": 4,
+        "archive": 3,
+        "abandonné": 2,
+        "perdu": 1
+    };
+
+    // Trier les projets
+    projetsFiltres.sort((a, b) => {
+
+        // Trier par année (plus récent en premier)
+        const diffAnnee = b.anneeCreation - a.anneeCreation;
+
+        if (diffAnnee !== 0) {
+            return diffAnnee;
+        }
+
+        // Trier par status
+        return (ordreStatus[b.status.toLowerCase()] || 0)
+            - (ordreStatus[a.status.toLowerCase()] || 0);
+    });
 
     // Créer les éléments
     projetsFiltres.forEach(projet => {
@@ -142,19 +168,19 @@ function getColorFront(status) {
     switch (status.toLowerCase()) {
 
         case "terminé":
-            return "#64F77A"; // vert
+            return "#A2EB7A"; // vert
 
         case "en cours":
-            return "#F5E766"; // jaune
+            return "#EBE27A"; // jaune
 
         case "perdu":
-            return "#E74C3C"; // rouge
+            return "#F28F7E"; // rouge
 
         case "archive":
-            return "#E74C3C"; // bleu
+            return "#6FD4E8"; // bleu
 
         case "abandonné":
-            return "#E74C3C"; // mauve
+            return "#976AE6"; // mauve
 
         default:
             return "#95A5A6"; // gris
@@ -166,19 +192,19 @@ function getColorBack(status) {
     switch (status.toLowerCase()) {
 
         case "terminé":
-            return "#0DF22F"; // vert
+            return "#7FE449"; // vert
 
         case "en cours":
-            return "#F1E20E"; // jaune
+            return "#E4D749"; // jaune
 
         case "perdu":
-            return "#E74C3C"; // rouge
+            return "#EC5A41"; // rouge
 
         case "archive":
-            return "#E74C3C"; // bleu
+            return "#4BC9E2"; // bleu
 
         case "abandonné":
-            return "#E74C3C"; // mauve
+            return "#834CE1"; // mauve
 
         default:
             return "#95A5A6"; // gris
@@ -190,19 +216,19 @@ function getColorRabat(status) {
     switch (status.toLowerCase()) {
 
         case "terminé":
-            return "#38F555"; // vert
+            return "#A6F27E"; // vert
 
         case "en cours":
-            return "#F6EC65"; // jaune
+            return "#F0E86E"; // jaune
 
         case "perdu":
-            return "#E74C3C"; // rouge
+            return "#F5A498"; // rouge
 
         case "archive":
-            return "#E74C3C"; // bleu
+            return "#8FDBEB"; // bleu
 
         case "abandonné":
-            return "#E74C3C"; // mauve
+            return "#A785E6"; // mauve
 
         default:
             return "#95A5A6"; // gris
