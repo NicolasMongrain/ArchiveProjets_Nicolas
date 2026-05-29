@@ -95,8 +95,15 @@ export const projets =
             "liens": [],
 
             "images": [
-                //"images/pathfinding/grid.png",
-                //"images/pathfinding/algorithm.png"
+                "../images/projets/SimulateurPathfindingAEtDijkstra/initial.png",
+                "../images/projets/SimulateurPathfindingAEtDijkstra/algoWall.png",
+                "../images/projets/SimulateurPathfindingAEtDijkstra/algoWallTeleport.png",
+                "../images/projets/SimulateurPathfindingAEtDijkstra/saveLoad.png",
+                "../images/projets/SimulateurPathfindingAEtDijkstra/changegridSize.png",
+                "../images/projets/SimulateurPathfindingAEtDijkstra/DemoDijkstra.png",
+                "../images/projets/SimulateurPathfindingAEtDijkstra/demoLabyrinthe.png",
+                "../images/projets/SimulateurPathfindingAEtDijkstra/noPath.png",
+                "../images/projets/SimulateurPathfindingAEtDijkstra/options.png",
             ],
 
             "videos": [],
