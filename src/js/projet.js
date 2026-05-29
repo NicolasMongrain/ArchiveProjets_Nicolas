@@ -131,9 +131,34 @@ document.addEventListener("DOMContentLoaded", () => {
             ctx.fillText(text, x, y);
 
             // Style canvas
-            canvas.className = "rounded-lg w-full object-cover border-2 border-[#EEF8FF]";
+            canvas.className = "rounded-lg w-full object-cover border-2 border-[#EEF8FF] hover:cursor-pointer";
 
             mediaContainer.appendChild(canvas);
+
+            // Fonction pour zoom
+            canvas.addEventListener("click", () => {
+
+                const overlay = document.createElement("div");
+                overlay.className = "fixed inset-0 bg-black/60 flex items-center justify-center z-50";
+
+                const bigCanvas = document.createElement("canvas");
+                const ctx = bigCanvas.getContext("2d");
+
+                bigCanvas.width = canvas.width;
+                bigCanvas.height = canvas.height;
+
+                ctx.drawImage(canvas, 0, 0);
+
+                bigCanvas.className = "max-w-[90%] max-h-[90%] rounded-lg";
+
+                overlay.appendChild(bigCanvas);
+
+                overlay.addEventListener("click", () => {
+                    overlay.remove();
+                });
+
+                document.body.appendChild(overlay);
+            });
         };
     });
 
@@ -173,3 +198,5 @@ function extractYouTubeId(url) {
     const match = url.match(/(?:v=|\/)([0-9A-Za-z_-]{11})/);
     return match ? match[1] : null;
 }
+
+
