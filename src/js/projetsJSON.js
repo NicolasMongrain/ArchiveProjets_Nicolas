@@ -44,11 +44,11 @@ export const projets =
             ],
 
             "description": "Projet d'étude en équipe de 7 consistant à créer un site web de cuisine ainsi qu'une application mobile." +
-            " Le but était de faire un réseau social ou les gens peuvent partager leurs recettes et peuvent faire des publications " +
-            "sur ses recettes. Les utilisateurs pouvaient créer leur compte, ce qui leur permettait d'avoir accès à l'option du frigo qui permet de voir" +
-            " la compatibilité entre les ingrédients du frigo et d'une recette en poarticulier. L'application possède un menu style instagram." +
-            " Il y a également une barre de recherche ou on peut recherche par nom de recette, style de recette et ingrédients de recette." +
-            " De mon côté, j'ai travaillé principalement sur la partie web front-end, mais j'ai également fait une partie du back-end.",
+                " Le but était de faire un réseau social ou les gens peuvent partager leurs recettes et peuvent faire des publications " +
+                "sur ses recettes. Les utilisateurs pouvaient créer leur compte, ce qui leur permettait d'avoir accès à l'option du frigo qui permet de voir" +
+                " la compatibilité entre les ingrédients du frigo et d'une recette en poarticulier. L'application possède un menu style instagram." +
+                " Il y a également une barre de recherche ou on peut recherche par nom de recette, style de recette et ingrédients de recette." +
+                " De mon côté, j'ai travaillé principalement sur la partie web front-end, mais j'ai également fait une partie du back-end.",
 
             "apprentissages": [
                 "Travail d'équipe sur un projet logiciel de grande envergure",
@@ -92,12 +92,12 @@ export const projets =
 
             "videos": [],
 
-            "description": "Application permettant de visualiser les algorithmes de pathfinding A* et Dijkstra sur une grille dynamique."+
-            " Il est également possible d'utiliser des portails et des murs afin de changer la grille et d'offrir plus de possibilités!" +
-            " Le logiciel offre également un système de sauvegarde pour conserver et réutiliser d'ancienne grille. Il est possible de modifier plusieurs" +
-            " éléments dans l'application comme la grille, le temps entre chaque itération, l'algorithme utilisé, etc. Également, il est possible de mélanger" +
-            " les deux algorithmes de pathfinding en les changeant pendant la recherche du chemin du point A au point B. Dans le futur, si je retravaille"+
-            " sur le projet, alors je rajouterais un générateur de labyrinthe et un système de statisque sur les dernières simulations.",
+            "description": "Application permettant de visualiser les algorithmes de pathfinding A* et Dijkstra sur une grille dynamique." +
+                " Il est également possible d'utiliser des portails et des murs afin de changer la grille et d'offrir plus de possibilités!" +
+                " Le logiciel offre également un système de sauvegarde pour conserver et réutiliser d'ancienne grille. Il est possible de modifier plusieurs" +
+                " éléments dans l'application comme la grille, le temps entre chaque itération, l'algorithme utilisé, etc. Également, il est possible de mélanger" +
+                " les deux algorithmes de pathfinding en les changeant pendant la recherche du chemin du point A au point B. Dans le futur, si je retravaille" +
+                " sur le projet, alors je rajouterais un générateur de labyrinthe et un système de statisque sur les dernières simulations.",
 
             "apprentissages": [
                 "Implémentation des algorithmes A* et Dijkstra",
@@ -139,11 +139,11 @@ export const projets =
 
             "videos": [],
 
-            "description": "Projet d'étude en assembleur Pep/8 fait en équipe de trois ou le but est de faire le chiffrement et le déchiffrement d'un message par flux XOR. "+
-            "Ce projet utilise également un autre projet d'étude qui est le générateur de nombre speudo-aléatoire : ." +
-            "Nous avions le choix entre quatre générateur de nombre speudo aléatoire et nous avions pris le Xorshift16, car il demandait de rentrer moins d'argument." +
-            "Ce projet nous a demandé de faire beaucoup de débuggage et de faire du pas à pas pour comprendre ce qui ce passe " +
-            "derrière le tout et s'assuré du bon fonctionnement du programme.",
+            "description": "Projet d'étude en assembleur Pep/8 fait en équipe de trois ou le but est de faire le chiffrement et le déchiffrement d'un message par flux XOR. " +
+                "Ce projet utilise également un autre projet d'étude qui est le générateur de nombre speudo-aléatoire : ." +
+                "Nous avions le choix entre quatre générateur de nombre speudo aléatoire et nous avions pris le Xorshift16, car il demandait de rentrer moins d'argument." +
+                "Ce projet nous a demandé de faire beaucoup de débuggage et de faire du pas à pas pour comprendre ce qui ce passe " +
+                "derrière le tout et s'assuré du bon fonctionnement du programme.",
 
             "apprentissages": [
                 "Compréhension du fonctionnement du chiffrement par flux XOR",
@@ -186,9 +186,9 @@ export const projets =
 
             "videos": [],
 
-            "description": "Projet en assembleur Pep/8 qui permet de générer des nombres de façon speudo aléatoire. Quatre modèles différent ont été fait. Générateur LCG (Linear congruential generator), "+
-            "générateur Xorshift16 et générateur LFSR (Linear-feedback shift register) interne et externe. Chaque modèle est différent et manipule les bits à l'intérieur d'un nombre de 16 bits."+
-            "Ce projet est en équipe de trois.",
+            "description": "Projet en assembleur Pep/8 qui permet de générer des nombres de façon speudo aléatoire. Quatre modèles différent ont été fait. Générateur LCG (Linear congruential generator), " +
+                "générateur Xorshift16 et générateur LFSR (Linear-feedback shift register) interne et externe. Chaque modèle est différent et manipule les bits à l'intérieur d'un nombre de 16 bits." +
+                "Ce projet est en équipe de trois.",
 
             "apprentissages": [
                 "Développement de générateurs de nombres pseudo-aléatoires en assembleur Pep/8",
@@ -246,7 +246,9 @@ export const projets =
 
             "videos": [],
 
-            "description": "Projet d'application mobile ou le but était de faire un semblable de moodle avec des cours, des quiz, des exams, des notes, etc. Il y avait un système de connexion. Ce projet était en équipe de trois.",
+            "description": "Projet d'application mobile ou le but était de faire une application comme moodle, mais en version plus petite avec des cours, " +
+                "des quiz, des exams, des notes, etc. Il y avait un système de connexion. Ce projet était en équipe de trois. Il y était possible de faire semblant " +
+                "remettre des travaux, de faire des quiz et d'avoir des notes sur les fameux travaux ou quiz.",
 
             "apprentissages": [
                 "Développement d'une application mobile avec Android Studio",
@@ -270,7 +272,7 @@ export const projets =
         },
 
         {
-            "id": 8,
+            "id": 6,
             "nom": "Démonstration d'intégrale",
             "categorie": ["projet-etude"],
             "status": "perdu",
@@ -291,19 +293,34 @@ export const projets =
                 ]
             },
 
-            "images" : [],
+            "images": [],
 
-            "videos" : [],
+            "videos": [],
 
-            "description" : "Projet en équipe de 2 ou le but était de faire un simulateur d'intégrale",
+            "description": "Projet réalisé en équipe de 2 ayant pour objectif de créer un simulateur d’intégrales interactif." +
+                " L’application permettait de générer et visualiser plusieurs types de fonctions mathématiques, notamment des fonctions trigonométriques, exponentielles et logarithmiques." +
+                " Il était également possible de personnaliser l’apparence de l’interface en choisissant la couleur des courbes ainsi que le thème visuel (clair ou sombre)." +
+                " Du côté des calculs, l’utilisateur pouvait sélectionner le nombre de rectangles utilisés pour l’approximation, définir l’intervalle en x et choisir la méthode d’approximation (coin gauche ou centre du rectangle)." +
+                " Le simulateur affichait ensuite l’aire réelle sous la courbe, l’aire approximée obtenue avec les rectangles ainsi que la différence entre les deux en pourcentage et en valeur absolue.",
 
-            "apprentissages" : [
-
+            "apprentissages": [
+                "Création et manipulation d’interfaces graphiques avec Java Swing",
+                "Travail en équipe et séparation des responsabilités dans un projet logiciel",
+                "Implémentation de méthodes d’approximation numérique d’intégrales",
+                "Manipulation et évaluation de fonctions mathématiques dynamiques",
+                "Utilisation des fonctions trigonométriques, exponentielles et logarithmiques en programmation",
+                "Gestion des coordonnées et du dessin graphique dans une fenêtre Java",
+                "Création de graphiques et visualisation de courbes mathématiques",
+                "Gestion des événements utilisateurs et interactions dans une interface graphique",
+                "Personnalisation d’interface utilisateur avec thèmes et couleurs dynamiques",
+                "Calcul et comparaison entre valeurs théoriques et approximations numériques",
+                "Organisation de code orienté objet en Java",
+                "Débogage d’algorithmes mathématiques et visuels"
             ],
 
-            "duree" : "3 semaines",
+            "duree": "3 semaines",
 
-            "anneeCreation" : "2024"
+            "anneeCreation": "2024"
         },
 
         {
@@ -331,7 +348,11 @@ export const projets =
 
             "videos": [],
 
-            "description": "Projet d'étude du cégep fait en équipe de quatre personnes, Super Louis est un jeu de plateforme 2D fait en Java ou plusieurs objets peuvent être manipuler. On parle ici de force Newton, simulation de corde, de pendule, de vent et autre. L'application offre également un éditeur de niveau ou on peut y sauvegarder son niveau et le tester. Prend seulement le dernier niveau sauvegarder par contre",
+            "description": "Projet d'étude du cégep fait en équipe de quatre personnes. Super Louis est un jeu de plateforme 2D fait en Java ou plusieurs " +
+                "objets peuvent être manipuler. On parle ici de force Newton, simulation de corde, de pendule, de vent et autre. " +
+                "L'application offre également un éditeur de niveau ou on peut y sauvegarder son niveau et le tester. " +
+                "L'application prend seulement le dernier niveau sauvegarder par contre. L'application avait malheureusement encore plus bugs et surtout des problèmes " +
+                "d'optimisations, mais ce fut un projet bien perçu par l'école.",
 
             "apprentissages": [
                 "Développement d'un jeu de plateforme 2D en Java",
@@ -375,11 +396,30 @@ export const projets =
                 "infrastructure": []
             },
 
-            "images": [],
+            "images": [
+                "../images/projets/GalerieVoxelArts/projetCaveMinecraft.PNG",
+                "../images/projets/GalerieVoxelArts/ProjetTerrainDeFleur.PNG",
+                "../images/projets/GalerieVoxelArts/panierFruit.PNG",
+                "../images/projets/GalerieVoxelArts/panierFruitLego.PNG",
+                "../images/projets/GalerieVoxelArts/crossyRoad.PNG",
+                "../images/projets/GalerieVoxelArts/crossyRoadCylindre.PNG",
+                "../images/projets/GalerieVoxelArts/potionLumineuse.PNG",
+                "../images/projets/GalerieVoxelArts/UndertaleAmes.PNG",
+                "../images/projets/GalerieVoxelArts/UndertaleAmesAvecBackgroundLumineux.PNG",
+                "../images/projets/GalerieVoxelArts/ChampignonMarioBros.PNG",
+                "../images/projets/GalerieVoxelArts/Chest.PNG",
+                "../images/projets/GalerieVoxelArts/.PNG",
+                "../images/projets/GalerieVoxelArts/CircuitElectrique.PNG",
+                "../images/projets/GalerieVoxelArts/miniChien.PNG",
+                "../images/projets/GalerieVoxelArts/miniChienClay.PNG",
+
+            ],
 
             "videos": [],
 
-            "description": "Cela n'est pas un projet en théorie, mais plusieurs petits projets de voxel art que j'ai moi même fait. Ce projet sera toujours en cours vu que j'en fais une fois de temps en temps, mais c'est juste un petit bonus que je me permet d'intégrer dans ce site d'archive de mes projets.",
+            "description": "Cela n'est pas un projet en théorie, mais plusieurs petits projets de voxel art que j'ai moi même fait. " +
+                "Ce projet sera toujours en cours vu que j'en fais une fois de temps en temps, mais c'est juste un petit bonus que je me permet " +
+                "d'intégrer dans ce site d'archive de mes projets. C'est ma façon de démontrer une partie de mes talents artistiques.",
 
             "apprentissages": [
                 "Création de modèles 3D en voxel art avec MagicaVoxel",
@@ -427,7 +467,10 @@ export const projets =
 
             "videos": [],
 
-            "description": "Ce projet est le site sur le quel vous êtes actuellement. Je l'inclus dans les projets vu que ça en reste un. Ce projet a pour but de laisser une trace de tous mes projets quelques parts et de montrer ce que j'ai fait et de montrer mon évolution dans le temps.",
+            "description": "Ce projet correspond au site web sur lequel vous vous trouvez actuellement." +
+                " Je l’ai inclus dans cette archive puisqu’il représente lui aussi un projet à part entière." +
+                " Son objectif principal est de centraliser et documenter l’ensemble de mes projets personnels et scolaires afin de conserver une trace de mon parcours en développement logiciel." +
+                " Ce site me permet également de présenter mes réalisations, mes expérimentations ainsi que mon évolution technique et créative au fil du temps.",
 
             "apprentissages": [
                 "Conception et développement d'un site web personnel de type portfolio dynamique",
@@ -475,7 +518,9 @@ export const projets =
 
             "videos": [],
 
-            "description": " Projet de carte de fête sur web pour ma copine que j'ai fait. J'ai fait un petit message avec un gâteau ou on peut souffler les bougies avec le micro. Il y a également des conffetis dans le background qui tombe",
+            "description": "Petit projet que je trouve intéressant malgré tout à rajouter. Cette carte est une carte de fête que j'ai fait pour ma copine initialement." +
+                " Cette carte possède des conffetis qui tombe en fond et y possède un gâteau ou on peut éteindre les bougies en faissant assez de bruit dans le micro." +
+                " Vu que la carte utilise des APIs web du navigateur pour le microphone, la carte fonctionne uniquement en localhost ou sur un site déployer.",
 
             "apprentissages": [
                 "Développement d'une application web interactive avec HTML, CSS et JavaScript",
@@ -523,7 +568,11 @@ export const projets =
 
             "videos": [],
 
-            "description": "Ce jeu est un jeu de plateforme 2D fait sur unity. C'est mon tout premier jeu avec unity. Le jeu a pour but d'être un jeu en équipe de deux ou chaque joueur peut devenir une plateforme pour l'autre joueur afin d'arriver vers des mécanismes et tout ça.",
+            "description": "Projet personnel en cours de développement, il s’agit de mon premier jeu réalisé avec le moteur Unity." +
+                " Ce jeu de plateforme 2D met l’accent sur une expérience coopérative entre deux joueurs, où la coordination et l’entraide sont essentielles pour progresser." +
+                " Les mécaniques de jeu reposent notamment sur la possibilité pour les joueurs d’interagir entre eux, jusqu’à devenir des plateformes l’un pour l’autre afin de surmonter les obstacles." +
+                " Ce projet me permet d’explorer les bases du développement de jeux vidéo avec Unity, autant sur le plan technique (physique, collisions, scripts en C#) que sur le plan du design de gameplay." +
+                " Il constitue également une première expérience complète de création de jeu, de la conception des mécaniques jusqu’à l’intégration des éléments visuels en pixel art.",
 
             "apprentissages": [
                 "Développement d'un jeu de plateforme 2D avec Unity",

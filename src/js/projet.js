@@ -18,6 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("titre").textContent = projet.nom;
     document.getElementById("description").textContent = projet.description;
 
+    document.getElementById("titreSite").textContent = "Archive - Nicolas Mongrain - "+projet.nom;
+
     document.getElementById("status").textContent = projet.status;
 
     document.getElementById("annee").textContent = projet.anneeCreation;
@@ -100,7 +102,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ctx.fillText(text, x, y);
 
             // Style canvas
-            canvas.className = "rounded-lg w-full object-cover";
+            canvas.className = "rounded-lg w-full object-cover border-2 border-[#EEF8FF]";
 
             mediaContainer.appendChild(canvas);
         };
