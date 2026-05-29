@@ -33,6 +33,13 @@ export const projets =
                 ]
             },
 
+            "liens": [
+                {
+                    "type": "site",
+                    "url": "https://lionfish-app-rcun9.ondigitalocean.app/"
+                }
+            ],
+
             "images": [
                 "../images/competences/logoJava.png",
                 "../images/competences/logoJava.png",
@@ -85,6 +92,8 @@ export const projets =
                 "infrastructure": []
             },
 
+            "liens": [],
+
             "images": [
                 //"images/pathfinding/grid.png",
                 //"images/pathfinding/algorithm.png"
@@ -132,6 +141,8 @@ export const projets =
 
                 "infrastructure": []
             },
+
+            "liens": [],
 
             "images": [
 
@@ -181,6 +192,8 @@ export const projets =
 
                 "infrastructure": []
             },
+
+            "liens": [],
 
             "images": [],
 
@@ -242,6 +255,8 @@ export const projets =
                 ]
             },
 
+            "liens": [],
+
             "images": [],
 
             "videos": [],
@@ -292,6 +307,8 @@ export const projets =
                 "infrastructure": [
                 ]
             },
+
+            "liens": [],
 
             "images": [],
 
@@ -344,6 +361,8 @@ export const projets =
                 ]
             },
 
+            "liens": [],
+
             "images": [],
 
             "videos": [],
@@ -395,6 +414,9 @@ export const projets =
 
                 "infrastructure": []
             },
+
+
+            "liens": [],
 
             "images": [
                 "../images/projets/GalerieVoxelArts/projetCaveMinecraft.PNG",
@@ -463,6 +485,8 @@ export const projets =
                 ]
             },
 
+            "liens": [],
+
             "images": [],
 
             "videos": [],
@@ -514,6 +538,8 @@ export const projets =
                 "infrastructure": []
             },
 
+            "liens": [],
+
             "images": [],
 
             "videos": [],
@@ -563,6 +589,8 @@ export const projets =
 
                 "infrastructure": []
             },
+
+            "liens": [],
 
             "images": [],
 

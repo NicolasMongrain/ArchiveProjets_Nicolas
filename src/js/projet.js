@@ -18,12 +18,41 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("titre").textContent = projet.nom;
     document.getElementById("description").textContent = projet.description;
 
-    document.getElementById("titreSite").textContent = "Archive - Nicolas Mongrain - "+projet.nom;
+    document.getElementById("titreSite").textContent = "Archive - Nicolas Mongrain - " + projet.nom;
 
     document.getElementById("status").textContent = projet.status;
 
     document.getElementById("annee").textContent = projet.anneeCreation;
     document.getElementById("duree").textContent = projet.duree;
+
+    const liensContainer = document.getElementById("liens");
+
+    liensContainer.innerHTML = "";
+
+
+    // Si le projet a des liens
+    projet.liens.forEach(lien => {
+
+        const a = document.createElement("a");
+        a.href = lien.url;
+        a.target = "_blank";
+
+        const icons = {
+            site: "🌍 Voir le site",
+            repo: "💻 Voir le code",
+            api: "📦 API"
+        };
+
+        a.textContent = icons[lien.type] || "🔗 Lien";
+
+        a.className = `
+        px-3 py-1 bg-white/10 rounded-lg
+        hover:bg-white/20 transition
+        text-sm font-medium
+    `;
+
+        liensContainer.appendChild(a);
+    });
 
     // Status style
     const statusEl = document.getElementById("status");
