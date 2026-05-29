@@ -549,6 +549,8 @@ export const projets =
             "liens": [],
 
             "images": [
+                "../images/projets/CarteFeteWeb/CarteAllume.PNG",
+                "../images/projets/CarteFeteWeb/CarteEteint.PNG",
             ],
 
             "videos": [],
