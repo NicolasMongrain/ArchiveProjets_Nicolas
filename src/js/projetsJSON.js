@@ -152,7 +152,8 @@ export const projets =
             "liens": [],
 
             "images": [
-
+                "../images/projets/ChiffrementFluxXOR/exemple1.PNG",
+                "../images/projets/ChiffrementFluxXOR/exemple2.PNG",
             ],
 
             "videos": [],
@@ -547,7 +548,8 @@ export const projets =
 
             "liens": [],
 
-            "images": [],
+            "images": [
+            ],
 
             "videos": [],
 
