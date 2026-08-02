@@ -41,20 +41,20 @@ export const projets =
             ],
 
             "images": [
-                "../images/projets/BouffETS/acceuil.png",
-                "../images/projets/BouffETS/commentaire.png",
-                "../images/projets/BouffETS/connexion.png",
-                "../images/projets/BouffETS/decouvrir.png",
-                "../images/projets/BouffETS/DécouvrirFiltre.png",
-                "../images/projets/BouffETS/enregistrement.png",
-                "../images/projets/BouffETS/frigo.png",
-                "../images/projets/BouffETS/inscription.png",
-                "../images/projets/BouffETS/parametreProfil.png",
-                "../images/projets/BouffETS/ProfilPublications.png",
-                "../images/projets/BouffETS/publications.png",
-                "../images/projets/BouffETS/recette1.png",
-                "../images/projets/BouffETS/recette2.png",
-                "../images/projets/BouffETS/recherche.png"
+                "src/images/projets/BouffETS/acceuil.png",
+                "src/images/projets/BouffETS/commentaire.png",
+                "src/images/projets/BouffETS/connexion.png",
+                "src/images/projets/BouffETS/decouvrir.png",
+                "src/images/projets/BouffETS/DécouvrirFiltre.png",
+                "src/images/projets/BouffETS/enregistrement.png",
+                "src/images/projets/BouffETS/frigo.png",
+                "src/images/projets/BouffETS/inscription.png",
+                "src/images/projets/BouffETS/parametreProfil.png",
+                "src/images/projets/BouffETS/ProfilPublications.png",
+                "src/images/projets/BouffETS/publications.png",
+                "src/images/projets/BouffETS/recette1.png",
+                "src/images/projets/BouffETS/recette2.png",
+                "src/images/projets/BouffETS/recherche.png"
             ],
 
             "videos": [
@@ -107,15 +107,15 @@ export const projets =
             "liens": [],
 
             "images": [
-                "../images/projets/SimulateurPathfindingAEtDijkstra/initial.png",
-                "../images/projets/SimulateurPathfindingAEtDijkstra/algoWall.png",
-                "../images/projets/SimulateurPathfindingAEtDijkstra/algoWallTeleport.png",
-                "../images/projets/SimulateurPathfindingAEtDijkstra/saveLoad.png",
-                "../images/projets/SimulateurPathfindingAEtDijkstra/changegridSize.png",
-                "../images/projets/SimulateurPathfindingAEtDijkstra/DemoDijkstra.png",
-                "../images/projets/SimulateurPathfindingAEtDijkstra/demoLabyrinthe.png",
-                "../images/projets/SimulateurPathfindingAEtDijkstra/noPath.png",
-                "../images/projets/SimulateurPathfindingAEtDijkstra/options.png",
+                "src/images/projets/SimulateurPathfindingAEtDijkstra/initial.png",
+                "src/images/projets/SimulateurPathfindingAEtDijkstra/algoWall.png",
+                "src/images/projets/SimulateurPathfindingAEtDijkstra/algoWallTeleport.png",
+                "src/images/projets/SimulateurPathfindingAEtDijkstra/saveLoad.png",
+                "src/images/projets/SimulateurPathfindingAEtDijkstra/changegridSize.png",
+                "src/images/projets/SimulateurPathfindingAEtDijkstra/DemoDijkstra.png",
+                "src/images/projets/SimulateurPathfindingAEtDijkstra/demoLabyrinthe.png",
+                "src/images/projets/SimulateurPathfindingAEtDijkstra/noPath.png",
+                "src/images/projets/SimulateurPathfindingAEtDijkstra/options.png",
             ],
 
             "videos": [],
@@ -164,8 +164,8 @@ export const projets =
             "liens": [],
 
             "images": [
-                "../images/projets/ChiffrementFluxXOR/exemple1.PNG",
-                "../images/projets/ChiffrementFluxXOR/exemple2.PNG",
+                "src/images/projets/ChiffrementFluxXOR/exemple1.PNG",
+                "src/images/projets/ChiffrementFluxXOR/exemple2.PNG",
             ],
 
             "videos": [],
@@ -216,12 +216,12 @@ export const projets =
             "liens": [],
 
             "images": [
-                "../images/projets/GenerateurNombreSpeudoAleatoire/partie1A.png",
-                "../images/projets/GenerateurNombreSpeudoAleatoire/partie1B.png",
-                "../images/projets/GenerateurNombreSpeudoAleatoire/parti2A.png",
-                "../images/projets/GenerateurNombreSpeudoAleatoire/Xorshift16.png",
-                "../images/projets/GenerateurNombreSpeudoAleatoire/partie2C.png",
-                "../images/projets/GenerateurNombreSpeudoAleatoire/parti3.png"
+                "src/images/projets/GenerateurNombreSpeudoAleatoire/partie1A.png",
+                "src/images/projets/GenerateurNombreSpeudoAleatoire/partie1B.png",
+                "src/images/projets/GenerateurNombreSpeudoAleatoire/parti2A.png",
+                "src/images/projets/GenerateurNombreSpeudoAleatoire/Xorshift16.png",
+                "src/images/projets/GenerateurNombreSpeudoAleatoire/partie2C.png",
+                "src/images/projets/GenerateurNombreSpeudoAleatoire/parti3.png"
             ],
 
             "videos": [],
@@ -446,21 +446,21 @@ export const projets =
             "liens": [],
 
             "images": [
-                "../images/projets/GalerieVoxelArts/projetCaveMinecraft.PNG",
-                "../images/projets/GalerieVoxelArts/ProjetTerrainDeFleur.PNG",
-                "../images/projets/GalerieVoxelArts/panierFruit.PNG",
-                "../images/projets/GalerieVoxelArts/panierFruitLego.PNG",
-                "../images/projets/GalerieVoxelArts/crossyRoad.PNG",
-                "../images/projets/GalerieVoxelArts/crossyRoadCylindre.PNG",
-                "../images/projets/GalerieVoxelArts/potionLumineuse.PNG",
-                "../images/projets/GalerieVoxelArts/UndertaleAmes.PNG",
-                "../images/projets/GalerieVoxelArts/UndertaleAmesAvecBackgroundLumineux.PNG",
-                "../images/projets/GalerieVoxelArts/ChampignonMarioBros.PNG",
-                "../images/projets/GalerieVoxelArts/Chest.PNG",
-                "../images/projets/GalerieVoxelArts/.PNG",
-                "../images/projets/GalerieVoxelArts/CircuitElectrique.PNG",
-                "../images/projets/GalerieVoxelArts/miniChien.PNG",
-                "../images/projets/GalerieVoxelArts/miniChienClay.PNG",
+                "src/images/projets/GalerieVoxelArts/projetCaveMinecraft.PNG",
+                "src/images/projets/GalerieVoxelArts/ProjetTerrainDeFleur.PNG",
+                "src/images/projets/GalerieVoxelArts/panierFruit.PNG",
+                "src/images/projets/GalerieVoxelArts/panierFruitLego.PNG",
+                "src/images/projets/GalerieVoxelArts/crossyRoad.PNG",
+                "src/images/projets/GalerieVoxelArts/crossyRoadCylindre.PNG",
+                "src/images/projets/GalerieVoxelArts/potionLumineuse.PNG",
+                "src/images/projets/GalerieVoxelArts/UndertaleAmes.PNG",
+                "src/images/projets/GalerieVoxelArts/UndertaleAmesAvecBackgroundLumineux.PNG",
+                "src/images/projets/GalerieVoxelArts/ChampignonMarioBros.PNG",
+                "src/images/projets/GalerieVoxelArts/Chest.PNG",
+                "src/images/projets/GalerieVoxelArts/.PNG",
+                "src/images/projets/GalerieVoxelArts/CircuitElectrique.PNG",
+                "src/images/projets/GalerieVoxelArts/miniChien.PNG",
+                "src/images/projets/GalerieVoxelArts/miniChienClay.PNG",
 
             ],
 
@@ -515,9 +515,9 @@ export const projets =
             "liens": [],
 
             "images": [
-                "../images/projets/SiteWebArchive/acceuil.png",
-                "../images/projets/SiteWebArchive/competences.png",
-                "../images/projets/SiteWebArchive/listeProjets.png"
+                "src/images/projets/SiteWebArchive/acceuil.png",
+                "src/images/projets/SiteWebArchive/competences.png",
+                "src/images/projets/SiteWebArchive/listeProjets.png"
             ],
 
             "videos": [],
@@ -572,8 +572,8 @@ export const projets =
             "liens": [],
 
             "images": [
-                "../images/projets/CarteFeteWeb/CarteAllume.PNG",
-                "../images/projets/CarteFeteWeb/CarteEteint.PNG",
+                "src/images/projets/CarteFeteWeb/CarteAllume.PNG",
+                "src/images/projets/CarteFeteWeb/CarteEteint.PNG",
             ],
 
             "videos": [],
