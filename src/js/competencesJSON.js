@@ -166,7 +166,7 @@ export const competences = [
     id:23,
     nom: "RSLogix",
     niveau: "Intermédiare",
-    image: "src/images/competences/logoRSLogix.png",
+    image: "./src/images/competences/logoRSLogix.png",
     groupe: "Autres"
   }
 ];
