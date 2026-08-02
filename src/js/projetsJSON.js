@@ -41,9 +41,20 @@ export const projets =
             ],
 
             "images": [
-                "../images/competences/logoJava.png",
-                "../images/competences/logoJava.png",
-                "../images/competences/logoJava.png"
+                "../images/projets/BouffETS/acceuil.png",
+                "../images/projets/BouffETS/commentaire.png",
+                "../images/projets/BouffETS/connexion.png",
+                "../images/projets/BouffETS/decouvrir.png",
+                "../images/projets/BouffETS/DécouvrirFiltre.png",
+                "../images/projets/BouffETS/enregistrement.png",
+                "../images/projets/BouffETS/frigo.png",
+                "../images/projets/BouffETS/inscription.png",
+                "../images/projets/BouffETS/parametreProfil.png",
+                "../images/projets/BouffETS/ProfilPublications.png",
+                "../images/projets/BouffETS/publications.png",
+                "../images/projets/BouffETS/recette1.png",
+                "../images/projets/BouffETS/recette2.png",
+                "../images/projets/BouffETS/recherche.png"
             ],
 
             "videos": [
@@ -203,7 +214,14 @@ export const projets =
 
             "liens": [],
 
-            "images": [],
+            "images": [
+                "../images/projets/GenerateurNombreSpeudoAleatoire/partie1A.png",
+                "../images/projets/GenerateurNombreSpeudoAleatoire/partie1B.png",
+                "../images/projets/GenerateurNombreSpeudoAleatoire/parti2A.png",
+                "../images/projets/GenerateurNombreSpeudoAleatoire/Xorshift16.png",
+                "../images/projets/GenerateurNombreSpeudoAleatoire/partie2C.png",
+                "../images/projets/GenerateurNombreSpeudoAleatoire/parti3.png"
+            ],
 
             "videos": [],
 
@@ -495,7 +513,11 @@ export const projets =
 
             "liens": [],
 
-            "images": [],
+            "images": [
+                "../images/projets/SiteWebArchive/acceuil.png",
+                "../images/projets/SiteWebArchive/competences.png",
+                "../images/projets/SiteWebArchive/listeProjets.png"
+            ],
 
             "videos": [],
 
