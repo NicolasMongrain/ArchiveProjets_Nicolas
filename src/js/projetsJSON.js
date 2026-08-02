@@ -459,7 +459,7 @@ export const projets =
                 "./src/images/projets/GalerieVoxelArts/Chest.png",
                 "./src/images/projets/GalerieVoxelArts/CircuitElectrique.png",
                 "./src/images/projets/GalerieVoxelArts/miniChien.png",
-                "./src/images/projets/GalerieVoxelArts/miniChienClay.png",
+                "./src/images/projets/GalerieVoxelArts/MiniChienClay.png",
 
             ],
 
