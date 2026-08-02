@@ -58,7 +58,7 @@ export const projets =
             ],
 
             "videos": [
-                "https://www.youtube.com/watch?v=fTKqtvXjkvo&pp=ygUHbXVzaXF1ZQ%3D%3D"
+                //"https://www.youtube.com/watch?v=fTKqtvXjkvo&pp=ygUHbXVzaXF1ZQ%3D%3D"
             ],
 
             "description": "Projet d'étude en équipe de 7 consistant à créer un site web de cuisine ainsi qu'une application mobile." +
@@ -66,7 +66,8 @@ export const projets =
                 "sur ses recettes. Les utilisateurs pouvaient créer leur compte, ce qui leur permettait d'avoir accès à l'option du frigo qui permet de voir" +
                 " la compatibilité entre les ingrédients du frigo et d'une recette en poarticulier. L'application possède un menu style instagram." +
                 " Il y a également une barre de recherche ou on peut recherche par nom de recette, style de recette et ingrédients de recette." +
-                " De mon côté, j'ai travaillé principalement sur la partie web front-end, mais j'ai également fait une partie du back-end.",
+                " De mon côté, j'ai travaillé principalement sur la partie web front-end, mais j'ai également fait une partie du back-end." +
+                " Il est également possible que le site ne soit pu disponible vu qu'on devait payer un hébergeur.",
 
             "apprentissages": [
                 "Travail d'équipe sur un projet logiciel de grande envergure",
