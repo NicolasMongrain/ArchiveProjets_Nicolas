@@ -54,7 +54,7 @@ export const competences = [
     id: 8,
     nom: "PHP",
     niveau: "Intermédiaire",
-    image: "src/images/competences/logoPHP.png",
+    image: "src/images/competences/logophp.png",
     groupe: "Programmation Web"
   },
   {
@@ -166,7 +166,7 @@ export const competences = [
     id:23,
     nom: "RSLogix",
     niveau: "Intermédiare",
-    image: "./src/images/competences/logoRSLogix.png",
+    image: "src/images/competences/logoRSLogix.png",
     groupe: "Autres"
   }
 ];
