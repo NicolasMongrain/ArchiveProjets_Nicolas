@@ -164,8 +164,8 @@ export const projets =
             "liens": [],
 
             "images": [
-                "./src/images/projets/ChiffrementFluxXOR/exemple1.PNG",
-                "./src/images/projets/ChiffrementFluxXOR/exemple2.PNG",
+                "./src/images/projets/ChiffrementFluxXOR/exemple1.png",
+                "./src/images/projets/ChiffrementFluxXOR/exemple2.png",
             ],
 
             "videos": [],
@@ -446,21 +446,21 @@ export const projets =
             "liens": [],
 
             "images": [
-                "./src/images/projets/GalerieVoxelArts/projetCaveMinecraft.PNG",
-                "./src/images/projets/GalerieVoxelArts/ProjetTerrainDeFleur.PNG",
-                "./src/images/projets/GalerieVoxelArts/panierFruit.PNG",
-                "./src/images/projets/GalerieVoxelArts/panierFruitLego.PNG",
-                "./src/images/projets/GalerieVoxelArts/crossyRoad.PNG",
-                "./src/images/projets/GalerieVoxelArts/crossyRoadCylindre.PNG",
-                "./src/images/projets/GalerieVoxelArts/potionLumineuse.PNG",
-                "./src/images/projets/GalerieVoxelArts/UndertaleAmes.PNG",
-                "./src/images/projets/GalerieVoxelArts/UndertaleAmesAvecBackgroundLumineux.PNG",
-                "./src/images/projets/GalerieVoxelArts/ChampignonMarioBros.PNG",
-                "./src/images/projets/GalerieVoxelArts/Chest.PNG",
-                "./src/images/projets/GalerieVoxelArts/.PNG",
-                "./src/images/projets/GalerieVoxelArts/CircuitElectrique.PNG",
-                "./src/images/projets/GalerieVoxelArts/miniChien.PNG",
-                "./src/images/projets/GalerieVoxelArts/miniChienClay.PNG",
+                "./src/images/projets/GalerieVoxelArts/projetCaveMinecraft.png",
+                "./src/images/projets/GalerieVoxelArts/ProjetTerrainDeFleur.png",
+                "./src/images/projets/GalerieVoxelArts/panierFruit.png",
+                "./src/images/projets/GalerieVoxelArts/panierFruitLego.png",
+                "./src/images/projets/GalerieVoxelArts/crossyRoad.png",
+                "./src/images/projets/GalerieVoxelArts/crossyRoadCylindre.png",
+                "./src/images/projets/GalerieVoxelArts/potionLumineuse.png",
+                "./src/images/projets/GalerieVoxelArts/UndertaleAmes.png",
+                "./src/images/projets/GalerieVoxelArts/UndertaleAmesAvecBackgroundLumineux.png",
+                "./src/images/projets/GalerieVoxelArts/ChampignonMarioBros.png",
+                "./src/images/projets/GalerieVoxelArts/Chest.png",
+                "./src/images/projets/GalerieVoxelArts/.png",
+                "./src/images/projets/GalerieVoxelArts/CircuitElectrique.png",
+                "./src/images/projets/GalerieVoxelArts/miniChien.png",
+                "./src/images/projets/GalerieVoxelArts/miniChienClay.png",
 
             ],
 
@@ -572,8 +572,8 @@ export const projets =
             "liens": [],
 
             "images": [
-                "./src/images/projets/CarteFeteWeb/CarteAllume.PNG",
-                "./src/images/projets/CarteFeteWeb/CarteEteint.PNG",
+                "./src/images/projets/CarteFeteWeb/CarteAllume.png",
+                "./src/images/projets/CarteFeteWeb/CarteEteint.png",
             ],
 
             "videos": [],
